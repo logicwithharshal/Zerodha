@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
 
 function Navbar() {
   return (
@@ -8,7 +7,7 @@ function Navbar() {
       style={{ backgroundColor: "#FFF" }}
     >
       <div class="container p-2">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="#">
           <img
             src="media/images/logo.svg"
             style={{ width: "25%" }}
@@ -30,27 +29,27 @@ function Navbar() {
           <form class="d-flex" role="search">
             <ul class="navbar-nav mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/signup">
+                <a class="nav-link active" aria-current="page" href="#">
                   Signup
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/about">
+                <a class="nav-link active" href="#">
                   About
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/product">
+                <a class="nav-link active" href="#">
                   Product
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/pricing">
+                <a class="nav-link active" href="#">
                   Pricing
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="/support">
+                <a class="nav-link active" href="#">
                   Support
                 </a>
               </li>
