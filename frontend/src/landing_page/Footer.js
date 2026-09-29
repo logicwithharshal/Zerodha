@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -6,53 +7,78 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+            <img
+              src="/media/images/logo.svg"
+              style={{ width: "50%" }}
+              alt="Logo"
+            />
+
             <p>
               &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
             </p>
           </div>
+
           <div className="col">
             <p>Company</p>
-            <a href="">About</a>
+
+            <Link to="/about">About</Link>
             <br />
-            <a href="">Products</a>
+
+            <Link to="/product">Products</Link>
             <br />
-            <a href="">Pricing</a>
+
+            <Link to="/pricing">Pricing</Link>
             <br />
+
             <a href="">Referral programme</a>
             <br />
+
             <a href="">Careers</a>
             <br />
+
             <a href="">Zerodha.tech</a>
             <br />
+
             <a href="">Press & media</a>
             <br />
+
             <a href="">Zerodha cares (CSR)</a>
             <br />
           </div>
+
           <div className="col">
             <p>Support</p>
-            <a href="">Contact</a>
+
+            <Link to="/support">Contact</Link>
             <br />
+
             <a href="">Support portal</a>
             <br />
+
             <a href="">Z-Connect blog</a>
             <br />
+
             <a href="">List of charges</a>
             <br />
+
             <a href="">Downloads & resources</a>
             <br />
           </div>
+
           <div className="col">
             <p>Account</p>
-            <a href="">Open an account</a>
+
+            <Link to="/signup">Open an account</Link>
             <br />
+
             <a href="">Fund transfer</a>
             <br />
+
             <a href="">60 day challenge</a>
             <br />
           </div>
         </div>
+
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
           <p>
             Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
@@ -92,11 +118,11 @@ function Footer() {
             Investor, if you are subscribing to an IPO, there is no need to
             issue a cheque. Please write the Bank account number and sign the
             IPO application form to authorize your bank to make payment in case
-            of allotment. In case of non allotment the funds will remain in your
-            bank account. As a business we don't give stock tips, and have not
-            authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
-            create a ticket here.
+            of allotment. In case of non allotment the funds will remain in
+            your bank account. As a business we don't give stock tips, and have
+            not authorized anyone to trade on behalf of others. If you find
+            anyone claiming to be part of Zerodha and offering such services,
+            please create a ticket here.
           </p>
         </div>
       </div>
