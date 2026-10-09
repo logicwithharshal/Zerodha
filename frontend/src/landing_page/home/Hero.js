@@ -5,15 +5,29 @@ function Hero() {
     <div className="container p-5 mb-5">
       <div className="row text-center">
         <img
+<<<<<<< HEAD
           src="media/images/homeHero.png"
           alt="Hero Image"
           className="mb-5"
         />
         <h1 className="mt-5">Invest in everything</h1>
+=======
+          src="/media/images/homeHero.png"
+          alt="Hero Image"
+          className="mb-5"
+        />
+
+        <h1 className="mt-5">Invest in everything</h1>
+
+>>>>>>> c4d0329a0cc11d5cc7f1747bcb30e38814316ce0
         <p>
           Online platform to invest in stocks, derivatives, mutual funds, and
           more
         </p>
+<<<<<<< HEAD
+=======
+
+>>>>>>> c4d0329a0cc11d5cc7f1747bcb30e38814316ce0
         <button
           className="p-2 btn btn-primary fs-5 mb-5"
           style={{ width: "20%", margin: "0 auto" }}
